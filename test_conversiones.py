@@ -1,5 +1,6 @@
 import pytest
 import Conversion as con
+import Conversiones
 
 def test_pulgadas_cm():
   assert con.centimetrosApulgadas(5.08) == 2
